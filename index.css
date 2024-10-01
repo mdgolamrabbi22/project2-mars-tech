@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: #514280;
+}
+.head{
+    color: rgb(241, 245, 249);
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.dul>li>a{
+    color:black;
+    font-size: smaller;
+}
+
+li{
+    list-style: none;
+}
+
+.ds{
+    margin: 10px;
+    padding: 10px;
+}
+
+.ds:hover{
+    background-color: #059826;
+    border-radius: 5px;
+
+}
+
+.dul>li{
+    list-style-type: none;
+    padding : 9px;
+}
+
+.dul{
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.dropdown{
+    color: aliceblue;
+}
+
+
+
+
+.btn{
+    padding: 10px;
+    margin: 0 10px;
+    color: rgb(248, 248, 248); 
+}
+
+.banner-section{
+    display: flex;
+}
+.banner{
+    max-width: 25rem;
+    height: 310px;
+    margin-top: 10px;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+.text{
+    margin: 20px 30px 5px 15px;
+}
+
+.first-text{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.sec-tex{
+    font-size: 18px;
+}
+
+.text button{
+    color: rgb(241, 245, 249) ;
+    background-color: rgba(62, 133, 62, 0.726);
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 8%;
+    margin-left: 0;
+    padding: 5px 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+.project{
+    text-align: center;
+    color: rgb(192 132 252 );
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card{
+    margin: 10px 5px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card div h5{
+    color: #56b7cf;
+    font-size: 20px;
+}
+
+.card div p{
+    color: #88c1cf;
+}
+
+.red{
+    color: red;
+}
+
+.footer{
+    background-color: #081621;
+    padding: 4rem 0 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.footer>*>h{
+    color: rgb(132 139 144);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.footer>div>a{
+    color: rgb(37 89 93);
+    
+}
+.footer>div{
+    gap: 1rem;
+    display: flex;
+    flex-direction:column ;
+    padding: 2rem;
+    width: 8rem;
+}
